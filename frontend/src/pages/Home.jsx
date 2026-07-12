@@ -82,7 +82,7 @@ const Home = () => {
           >
             <Stat label="Years shipping" value="4+" />
             <Stat label="Production projects" value="4" />
-            <Stat label="Domains" value="Insurance · Health" />
+            <Stat label="Domains" value="Insurance" />
           </motion.div>
         </div>
 
