@@ -35,7 +35,7 @@ const Resume = () => {
           </div>
           <div>
             <p className="font-heading text-lg text-[color:var(--rp-text-primary)]">
-              Resume_Rajiv_Pandit_2026.pdf
+              Resume.pdf
             </p>
             <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-[color:var(--rp-text-secondary)] mt-1">
               PDF · Google Drive
