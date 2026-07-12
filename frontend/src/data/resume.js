@@ -4,14 +4,14 @@ export const profile = {
   firstName: "Rajiv",
   role: "Full-stack Engineer",
   tagline:
-    "Building production-grade web platforms across insurance, healthcare & enterprise domains — with 4+ years of shipping PHP, React and Node.js at scale.",
+    "Building production-grade web platforms across insurance, healthcare & enterprise domains — with 4+ years of shipping React, Next.js, PHP and Node.js at scale.",
   location: "Kolkata, India",
   email: "panditrajiv1998@gmail.com",
   phone: "+91 85840 02025",
-  linkedin: "https://www.linkedin.com/in/rajiv-pandit",
-  github: "https://github.com/rajiv-pandit",
+  linkedin: "https://www.linkedin.com/in/rajiv-pandit-406215127/",
+  github: "https://github.com/razi1998",
   summary:
-    "Full-stack engineer with 4+ years delivering production-grade web applications across insurance, healthcare, and enterprise domains. Specialises in PHP (Laravel/Lumen), React.js, Node.js and RESTful microservices. Actively leverages AI developer tools — Cursor AI, GitHub Copilot & Codeium — to ship higher-quality code in significantly less time.",
+    "Full-stack engineer with 4+ years delivering production-grade web applications across insurance, healthcare, and enterprise domains. Specialises in React.js, Node.js, PHP (Laravel/Lumen) and RESTful microservices. Actively leverages AI developer tools — Cursor AI, GitHub Copilot & Codeium — to ship higher-quality code in significantly less time.",
   resumeDriveViewUrl:
     "https://drive.google.com/file/d/1j2B_pNk76AZQtymOj2C511Tu6mdeGfhK/view?usp=drivesdk",
   resumeDriveDownloadUrl:
@@ -89,6 +89,7 @@ export const experience = [
 export const projects = [
   {
     id: "sbi-yono",
+    url: "https://www.sbigeneral.in/",
     name: "SBI General Insurance — YONO 2.0",
     client: "SBI General Insurance",
     year: "2024 — Present",
@@ -101,6 +102,7 @@ export const projects = [
   },
   {
     id: "weconnect",
+    url: "",
     name: "Ageas Federal — WeConnect Portal",
     client: "Ageas Federal Life Insurance",
     year: "2022 — 2024",
@@ -112,6 +114,7 @@ export const projects = [
   },
   {
     id: "ageas-customer",
+    url: "https://www.ageasfederal.com/",
     name: "Ageas Federal — Customer Portal",
     client: "Ageas Federal Life Insurance",
     year: "2021 — 2022",
@@ -123,6 +126,7 @@ export const projects = [
   },
   {
     id: "hms",
+    url: "",
     name: "Hospital Management System",
     client: "Academic / Trainee Project",
     year: "2021",
