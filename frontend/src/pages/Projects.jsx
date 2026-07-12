@@ -30,7 +30,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.5, delay: i * 0.06 }}
-            className="group relative border border-[color:var(--rp-border)] rounded-2xl p-8 hover:bg-[color:var(--rp-surface)] transition-colors duration-300 flex flex-col"
+            className="group relative rp-card border border-[color:var(--rp-border)] rounded-2xl p-8 hover:bg-[color:var(--rp-surface)] transition-colors duration-300 flex flex-col"
           >
             <div className="flex items-start justify-between gap-4">
               <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-[color:var(--rp-text-secondary)]">

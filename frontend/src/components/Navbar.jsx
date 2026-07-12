@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <header
       data-testid="site-navbar"
-      className="fixed top-0 inset-x-0 z-50 backdrop-blur-xl bg-[color:var(--rp-bg)]/70 border-b border-[color:var(--rp-border)]"
+      className="fixed top-0 inset-x-0 z-50 backdrop-blur-xl rp-nav-surface border-b border-[color:var(--rp-border)]"
     >
       <div className="max-w-7xl mx-auto px-6 md:px-10 h-16 flex items-center justify-between">
         <Link
@@ -100,7 +100,7 @@ const Navbar = () => {
       {open && (
         <div
           data-testid="mobile-menu"
-          className="md:hidden border-t border-[color:var(--rp-border)] bg-[color:var(--rp-bg)]/95 backdrop-blur-xl"
+          className="md:hidden border-t border-[color:var(--rp-border)] rp-nav-surface backdrop-blur-xl"
         >
           <nav className="px-6 py-6 flex flex-col gap-4">
             {links.map((l) => (

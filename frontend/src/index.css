@@ -7,68 +7,86 @@
 @layer base {
     :root {
         /* shadcn tokens (light) */
-        --background: 0 0% 98%;
-        --foreground: 240 10% 3.9%;
+        --background: 220 20% 97%;
+        --foreground: 215 25% 18%;
         --card: 0 0% 100%;
-        --card-foreground: 240 10% 3.9%;
+        --card-foreground: 215 25% 18%;
         --popover: 0 0% 100%;
-        --popover-foreground: 240 10% 3.9%;
-        --primary: 240 10% 3.9%;
-        --primary-foreground: 0 0% 98%;
-        --secondary: 240 4.8% 95.9%;
-        --secondary-foreground: 240 5.9% 10%;
-        --muted: 240 4.8% 95.9%;
-        --muted-foreground: 240 3.8% 46.1%;
-        --accent: 240 4.8% 95.9%;
-        --accent-foreground: 240 5.9% 10%;
+        --popover-foreground: 215 25% 18%;
+        --primary: 217 91% 60%;
+        --primary-foreground: 210 40% 98%;
+        --secondary: 220 18% 95%;
+        --secondary-foreground: 215 25% 18%;
+        --muted: 220 18% 95%;
+        --muted-foreground: 220 9% 46%;
+        --accent: 216 20% 92%;
+        --accent-foreground: 215 25% 18%;
         --destructive: 0 84.2% 60.2%;
         --destructive-foreground: 0 0% 98%;
-        --border: 240 5.9% 90%;
-        --input: 240 5.9% 90%;
-        --ring: 240 10% 3.9%;
-        --radius: 0.5rem;
+        --border: 220 13% 87%;
+        --input: 220 13% 87%;
+        --ring: 217 91% 60%;
+        --radius: 0.75rem;
 
         /* Portfolio tokens (light) */
-        --rp-bg: #fafafa;
-        --rp-surface: #f4f4f5;
-        --rp-surface-hover: #e4e4e7;
-        --rp-text-primary: #09090b;
-        --rp-text-secondary: #52525b;
-        --rp-border: #e4e4e7;
-        --rp-fg: #09090b; /* primary action */
-        --rp-fg-text: #fafafa;
+        --rp-bg: #f7f8fa;
+        --rp-surface: #f2f4f7;
+        --rp-surface-hover: #e8ebf0;
+        --rp-card: #ffffff;
+        --rp-text-primary: #1f2937;
+        --rp-text-secondary: #6b7280;
+        --rp-border: #dadde3;
+        --rp-fg: #2563eb;
+        --rp-fg-text: #f8fafc;
+        --rp-shadow-sm: 0 1px 2px rgba(31, 41, 55, 0.04);
+        --rp-shadow-card: 0 12px 32px rgba(31, 41, 55, 0.06), 0 2px 6px rgba(31, 41, 55, 0.03);
+        --rp-nav-gradient: linear-gradient(135deg, rgba(255, 255, 255, 0.84), rgba(242, 244, 247, 0.76));
+        --rp-card-gradient: linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(247, 248, 250, 0.92));
+        --rp-gradient:
+            radial-gradient(circle at 12% 0%, rgba(255, 255, 255, 0.95), transparent 36%),
+            radial-gradient(circle at 92% 12%, rgba(221, 226, 235, 0.72), transparent 42%),
+            linear-gradient(135deg, #f7f8fa 0%, #f1f3f6 52%, #eceef2 100%);
     }
 
     .dark {
-        --background: 0 0% 3.9%;
-        --foreground: 0 0% 98%;
-        --card: 0 0% 3.9%;
-        --card-foreground: 0 0% 98%;
-        --popover: 0 0% 3.9%;
-        --popover-foreground: 0 0% 98%;
-        --primary: 0 0% 98%;
-        --primary-foreground: 0 0% 9%;
-        --secondary: 0 0% 14.9%;
-        --secondary-foreground: 0 0% 98%;
-        --muted: 0 0% 14.9%;
-        --muted-foreground: 0 0% 63.9%;
-        --accent: 0 0% 14.9%;
-        --accent-foreground: 0 0% 98%;
+        --background: 219 41% 9%;
+        --foreground: 220 13% 95%;
+        --card: 218 32% 16%;
+        --card-foreground: 220 13% 95%;
+        --popover: 218 32% 16%;
+        --popover-foreground: 220 13% 95%;
+        --primary: 213 94% 68%;
+        --primary-foreground: 219 41% 9%;
+        --secondary: 219 35% 13%;
+        --secondary-foreground: 220 13% 95%;
+        --muted: 219 35% 13%;
+        --muted-foreground: 218 11% 65%;
+        --accent: 217 28% 20%;
+        --accent-foreground: 220 13% 95%;
         --destructive: 0 62.8% 30.6%;
         --destructive-foreground: 0 0% 98%;
-        --border: 0 0% 14.9%;
-        --input: 0 0% 14.9%;
-        --ring: 0 0% 83.1%;
+        --border: 216 73% 67% / 0.15;
+        --input: 216 73% 67% / 0.18;
+        --ring: 213 94% 68%;
 
         /* Portfolio tokens (dark) */
-        --rp-bg: #0a0a0a;
-        --rp-surface: #121212;
-        --rp-surface-hover: #1a1a1a;
-        --rp-text-primary: #f5f5f5;
-        --rp-text-secondary: #c4c4c4;
-        --rp-border: #262626;
-        --rp-fg: #ffffff;
-        --rp-fg-text: #000000;
+        --rp-bg: #0b1220;
+        --rp-surface: #161e2e;
+        --rp-surface-hover: #202b40;
+        --rp-card: #1b2435;
+        --rp-text-primary: #f3f4f6;
+        --rp-text-secondary: #9ca3af;
+        --rp-border: rgba(96, 165, 250, 0.15);
+        --rp-fg: #60a5fa;
+        --rp-fg-text: #0b1220;
+        --rp-shadow-sm: 0 1px 2px rgba(2, 6, 23, 0.22);
+        --rp-shadow-card: 0 16px 36px rgba(2, 6, 23, 0.2), 0 2px 8px rgba(2, 6, 23, 0.14);
+        --rp-nav-gradient: linear-gradient(135deg, rgba(11, 18, 32, 0.86), rgba(22, 30, 46, 0.8));
+        --rp-card-gradient: linear-gradient(145deg, rgba(27, 36, 53, 0.94), rgba(22, 30, 46, 0.92));
+        --rp-gradient:
+            radial-gradient(circle at 8% 0%, rgba(37, 99, 235, 0.16), transparent 36%),
+            radial-gradient(circle at 94% 14%, rgba(96, 165, 250, 0.11), transparent 42%),
+            linear-gradient(135deg, #0b1220 0%, #0e1726 48%, #111827 100%);
     }
 }
 
@@ -89,13 +107,44 @@
         -moz-osx-font-smoothing: grayscale;
         transition:
             background-color 300ms ease,
-            color 300ms ease;
+            color 300ms ease,
+            border-color 300ms ease;
     }
 
     ::selection {
         background: var(--rp-text-primary);
         color: var(--rp-bg);
     }
+}
+
+.rp-page-background {
+    background: var(--rp-gradient);
+    background-attachment: fixed;
+}
+
+.rp-nav-surface {
+    background: var(--rp-nav-gradient);
+    box-shadow: var(--rp-shadow-sm);
+}
+
+.rp-card {
+    background: var(--rp-card-gradient);
+    box-shadow: var(--rp-shadow-card);
+}
+
+input,
+textarea,
+select {
+    background-color: var(--rp-card);
+    border-color: var(--rp-border);
+    box-shadow: var(--rp-shadow-sm);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--rp-fg);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--rp-fg) 18%, transparent);
 }
 
 @layer utilities {
