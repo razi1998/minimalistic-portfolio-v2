@@ -11,7 +11,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/rajiv-pandit-406215127/",
   github: "https://github.com/razi1998",
   summary:
-    "Full-stack engineer with 4+ years delivering production-grade web applications across insurance, healthcare, and enterprise domains. Specialises in React.js, Node.js, PHP (Laravel/Lumen) and RESTful microservices. Actively leverages AI developer tools — Cursor AI, GitHub Copilot & Codeium — to ship higher-quality code in significantly less time.",
+    "Full-stack engineer with 4+ years delivering production-grade web applications across insurance, healthcare, and enterprise domains. Specialises in React.js, Node.js, PHP (Laravel/Lumen) and RESTful microservices. Actively leverages AI developer tools — Cursor AI, GitHub Copilot & Codex — to ship higher-quality code in significantly less time.",
   resumeDriveViewUrl:
     "https://drive.google.com/file/d/1j2B_pNk76AZQtymOj2C511Tu6mdeGfhK/view?usp=drivesdk",
   resumeDriveDownloadUrl:
@@ -41,7 +41,7 @@ export const skills = [
   },
   {
     group: "AI Dev Tools",
-    items: ["Cursor AI", "GitHub Copilot", "Antigravity"],
+    items: ["Cursor AI", "GitHub Copilot", "Codex", "Antigravity"],
   },
   {
     group: "Soft Skills",
