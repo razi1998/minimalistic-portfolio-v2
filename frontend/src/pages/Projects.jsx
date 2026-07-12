@@ -42,8 +42,20 @@ const Projects = () => {
               />
             </div>
 
-            <h3 className="mt-6 font-heading text-2xl text-[color:var(--rp-text-primary)] leading-snug">
-              {p.name}
+            <h3 className="mt-6 font-heading text-2xl leading-snug">
+              {p.url ? (
+                <a
+                  href={p.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={`Open ${p.name}`}
+                  className="text-[color:var(--rp-text-primary)] underline-offset-4 transition-colors duration-200 hover:text-[color:var(--rp-fg)] hover:underline"
+                >
+                  {p.name}
+                </a>
+              ) : (
+                <span className="text-[color:var(--rp-text-primary)]">{p.name}</span>
+              )}
             </h3>
             <p className="mt-2 text-sm text-[color:var(--rp-text-secondary)]">
               {p.client} · {p.role}

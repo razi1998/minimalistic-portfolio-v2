@@ -89,6 +89,7 @@ export const experience = [
 export const projects = [
   {
     id: "sbi-yono",
+    url: "https://www.sbigeneral.in/",
     name: "SBI General Insurance — YONO 2.0",
     client: "SBI General Insurance",
     year: "2024 — Present",
@@ -101,6 +102,7 @@ export const projects = [
   },
   {
     id: "weconnect",
+    url: "",
     name: "Ageas Federal — WeConnect Portal",
     client: "Ageas Federal Life Insurance",
     year: "2022 — 2024",
@@ -112,6 +114,7 @@ export const projects = [
   },
   {
     id: "ageas-customer",
+    url: "https://www.ageasfederal.com/",
     name: "Ageas Federal — Customer Portal",
     client: "Ageas Federal Life Insurance",
     year: "2021 — 2022",
@@ -123,6 +126,7 @@ export const projects = [
   },
   {
     id: "hms",
+    url: "",
     name: "Hospital Management System",
     client: "Academic / Trainee Project",
     year: "2021",
