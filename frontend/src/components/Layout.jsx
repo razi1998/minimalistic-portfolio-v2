@@ -1,12 +1,18 @@
 import { Outlet, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
+import { useLayoutEffect } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const Layout = () => {
   const location = useLocation();
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   return (
-    <div className="relative min-h-screen bg-[color:var(--rp-bg)] text-[color:var(--rp-text-primary)] font-body">
+    <div className="relative min-h-screen rp-page-background text-[color:var(--rp-text-primary)] font-body">
       {/* Grain overlay */}
       <div className="pointer-events-none fixed inset-0 z-[1] rp-grain" aria-hidden="true" />
       <Navbar />

@@ -24,7 +24,7 @@ const Resume = () => {
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
-        className="mt-10 border border-[color:var(--rp-border)] rounded-2xl p-8 md:p-10 flex flex-col md:flex-row md:items-center gap-6 md:gap-10"
+        className="mt-10 rp-card border border-[color:var(--rp-border)] rounded-2xl p-8 md:p-10 flex flex-col md:flex-row md:items-center gap-6 md:gap-10"
       >
         <div className="flex items-center gap-4">
           <div className="h-14 w-14 rounded-xl border border-[color:var(--rp-border)] flex items-center justify-center">
@@ -61,7 +61,7 @@ const Resume = () => {
             className="inline-flex items-center gap-2 rounded-full border border-[color:var(--rp-border)] px-5 py-3 text-sm font-medium text-[color:var(--rp-text-primary)] hover:bg-[color:var(--rp-surface)] transition-colors duration-200"
           >
             <ExternalLink className="h-4 w-4" strokeWidth={1.75} />
-            Preview on Drive
+            Preview
           </a>
         </div>
       </motion.div>
