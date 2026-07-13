@@ -16,8 +16,7 @@ const Resume = () => {
         The one-page version.
       </h2>
       <p className="mt-6 max-w-2xl text-[color:var(--rp-text-secondary)]">
-        Grab a copy of my resume — or preview the highlights below. Hosted on
-        Google Drive.
+        Grab a copy of my resume — or preview the highlights below.
       </p>
 
       <motion.div
