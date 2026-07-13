@@ -29,10 +29,10 @@
         --radius: 0.75rem;
 
         /* Portfolio tokens (light) */
-        --rp-bg: #f7f8fa;
-        --rp-surface: #f2f4f7;
-        --rp-surface-hover: #e8ebf0;
-        --rp-card: #ffffff;
+        --rp-bg: #e3e3e6;
+        --rp-surface: #e6e9eb;
+        --rp-surface-hover: #a2b3c4;
+        --rp-card: #efe4e4;
         --rp-text-primary: #1f2937;
         --rp-text-secondary: #6b7280;
         --rp-border: #dadde3;
@@ -40,12 +40,12 @@
         --rp-fg-text: #f8fafc;
         --rp-shadow-sm: 0 1px 2px rgba(31, 41, 55, 0.04);
         --rp-shadow-card: 0 12px 32px rgba(31, 41, 55, 0.06), 0 2px 6px rgba(31, 41, 55, 0.03);
-        --rp-nav-gradient: linear-gradient(135deg, rgba(255, 255, 255, 0.84), rgba(242, 244, 247, 0.76));
-        --rp-card-gradient: linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(247, 248, 250, 0.92));
+        --rp-nav-gradient: linear-gradient(135deg, rgba(239, 232, 232, 0.84), rgba(187, 209, 241, 0.76));
+        --rp-card-gradient: linear-gradient(145deg, rgba(189, 185, 185, 0.94), rgba(225, 231, 244, 0.92));
         --rp-gradient:
-            radial-gradient(circle at 12% 0%, rgba(255, 255, 255, 0.95), transparent 36%),
-            radial-gradient(circle at 92% 12%, rgba(221, 226, 235, 0.72), transparent 42%),
-            linear-gradient(135deg, #f7f8fa 0%, #f1f3f6 52%, #eceef2 100%);
+            radial-gradient(circle at 12% 0%, rgba(217, 208, 208, 0.95), transparent 36%),
+            radial-gradient(circle at 92% 12%, rgba(181, 183, 187, 0.72), transparent 42%),
+            linear-gradient(135deg, #c4cad7 0%, #c7d9f5 52%, #eceef2 100%);
     }
 
     .dark {
