@@ -60,11 +60,11 @@ const Navbar = () => {
             className="flex items-center gap-2 text-sm text-[color:var(--rp-text-primary)] hover:opacity-80 transition-opacity duration-200"
           >
             {isDark ? (
-              <Moon className="h-4 w-4" strokeWidth={1.5} />
-            ) : (
               <Sun className="h-4 w-4" strokeWidth={1.5} />
+            ) : (
+              <Moon className="h-4 w-4" strokeWidth={1.5} />
             )}
-            <span>{isDark ? "Night mode" : "Day mode"}</span>
+            {/* <span>{isDark ? "Daylight" : "Night"}</span> */}
           </button>
         </nav>
 
@@ -77,9 +77,9 @@ const Navbar = () => {
             className="text-[color:var(--rp-text-primary)]"
           >
             {isDark ? (
-              <Moon className="h-5 w-5" strokeWidth={1.5} />
-            ) : (
               <Sun className="h-5 w-5" strokeWidth={1.5} />
+            ) : (
+              <Moon className="h-5 w-5" strokeWidth={1.5} />
             )}
           </button>
           <button
