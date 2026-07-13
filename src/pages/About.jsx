@@ -25,8 +25,11 @@ const About = () => {
           <MapPin className="h-3.5 w-3.5" strokeWidth={1.5} /> {profile.location}
         </span>
         <a
-          href={`mailto:${profile.email}`}
+          href={profile.emailComposeUrl}
+          target="_blank"
+          rel="noreferrer"
           data-testid="about-email"
+          aria-label={`Email ${profile.name}`}
           className="inline-flex items-center gap-2 hover:text-[color:var(--rp-text-primary)] transition-colors duration-200"
         >
           <Mail className="h-3.5 w-3.5" strokeWidth={1.5} /> {profile.email}

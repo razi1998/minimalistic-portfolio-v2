@@ -39,7 +39,9 @@ const Footer = () => {
           </a>
           <a
             data-testid="footer-email"
-            href={`mailto:${profile.email}`}
+            href={profile.emailComposeUrl}
+            target="_blank"
+            rel="noreferrer"
             aria-label="Email"
             className="text-[color:var(--rp-text-secondary)] hover:text-[color:var(--rp-text-primary)] transition-colors duration-200"
           >
