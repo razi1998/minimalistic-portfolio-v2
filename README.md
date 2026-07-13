@@ -1,5 +1,17 @@
 # Getting Started with Create React App
 
+## Deploy on Netlify (free)
+
+1. Push this repository to GitHub.
+2. In [Netlify](https://app.netlify.com/start), choose **Import from Git** and
+   select this repository.
+3. Netlify will read `netlify.toml`. If prompted, set the build command to
+   `npm run build` and the publish directory to `build`.
+4. Click **Deploy site**. Future pushes will deploy automatically.
+
+The included redirect configuration lets React Router handle direct visits and
+refreshes on routes such as `/about`, `/projects`, and `/resume`.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
