@@ -7,6 +7,8 @@ export const profile = {
     "Building production-grade web platforms across insurance, healthcare & enterprise domains — with 4+ years of shipping React, Next.js, PHP and Node.js at scale.",
   location: "Kolkata, India",
   email: "panditrajiv1998@gmail.com",
+  emailComposeUrl:
+    "https://mail.google.com/mail/?view=cm&fs=1&to=panditrajiv1998%40gmail.com&su=Portfolio%20inquiry",
   phone: "+91 85840 02025",
   linkedin: "https://www.linkedin.com/in/rajiv-pandit-406215127/",
   github: "https://github.com/razi1998",
