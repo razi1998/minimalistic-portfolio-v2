@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { MapPin, Mail, Phone } from "lucide-react";
 import { profile, experience, education, skills } from "../data/resume";
+import { openEmailComposer } from "../lib/email";
 
 const About = () => {
   return (
@@ -25,7 +26,8 @@ const About = () => {
           <MapPin className="h-3.5 w-3.5" strokeWidth={1.5} /> {profile.location}
         </span>
         <a
-          href={profile.emailComposeUrl}
+          href={profile.emailComposeUrls.mobile}
+          onClick={(event) => openEmailComposer(event, profile.emailComposeUrls)}
           data-testid="about-email"
           aria-label={`Email ${profile.name}`}
           className="inline-flex items-center gap-2 hover:text-[color:var(--rp-text-primary)] transition-colors duration-200"

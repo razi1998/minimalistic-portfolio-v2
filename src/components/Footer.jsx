@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { profile } from "../data/resume";
+import { openEmailComposer } from "../lib/email";
 
 const Footer = () => {
   return (
@@ -39,7 +40,8 @@ const Footer = () => {
           </a>
           <a
             data-testid="footer-email"
-            href={profile.emailComposeUrl}
+            href={profile.emailComposeUrls.mobile}
+            onClick={(event) => openEmailComposer(event, profile.emailComposeUrls)}
             aria-label="Email"
             className="text-[color:var(--rp-text-secondary)] hover:text-[color:var(--rp-text-primary)] transition-colors duration-200"
           >
