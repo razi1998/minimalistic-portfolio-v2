@@ -26,8 +26,6 @@ const About = () => {
         </span>
         <a
           href={profile.emailComposeUrl}
-          target="_blank"
-          rel="noreferrer"
           data-testid="about-email"
           aria-label={`Email ${profile.name}`}
           className="inline-flex items-center gap-2 hover:text-[color:var(--rp-text-primary)] transition-colors duration-200"
