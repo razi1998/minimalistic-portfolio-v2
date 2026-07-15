@@ -8,7 +8,7 @@ export const profile = {
   location: "Kolkata, India",
   email: "panditrajiv1998@gmail.com",
   emailComposeUrl:
-    "https://mail.google.com/mail/?view=cm&fs=1&to=panditrajiv1998%40gmail.com&su=Portfolio%20inquiry",
+    "https://mail.google.com/mail/?view=cm&fs=1&to=panditrajiv1998@gmail.com&su=Portfolio%20inquiry",
   phone: "+91 85840 02025",
   linkedin: "https://www.linkedin.com/in/rajiv-pandit-406215127/",
   github: "https://github.com/razi1998",
