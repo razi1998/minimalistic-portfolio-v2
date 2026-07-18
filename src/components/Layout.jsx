@@ -12,11 +12,29 @@ const Layout = () => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
 
+  const updateCursor = (x, y, active = true) => {
+    setCursor({ x, y, active });
+  };
+
   const handleMouseMove = (event) => {
-    setCursor({ x: event.clientX, y: event.clientY, active: true });
+    updateCursor(event.clientX, event.clientY);
+  };
+
+  const handleTouchMove = (event) => {
+    const touch = event.touches[0];
+    if (touch) updateCursor(touch.clientX, touch.clientY);
+  };
+
+  const handleTouchStart = (event) => {
+    const touch = event.touches[0];
+    if (touch) updateCursor(touch.clientX, touch.clientY);
   };
 
   const handleMouseLeave = () => {
+    setCursor((prev) => ({ ...prev, active: false }));
+  };
+
+  const handleTouchEnd = () => {
     setCursor((prev) => ({ ...prev, active: false }));
   };
 
@@ -25,6 +43,10 @@ const Layout = () => {
       className="relative min-h-screen rp-page-background text-[color:var(--rp-text-primary)] font-body"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
+      onTouchCancel={handleTouchEnd}
     >
       {/* Grain overlay */}
       <div className="pointer-events-none fixed inset-0 z-[1] rp-grain" aria-hidden="true" />
